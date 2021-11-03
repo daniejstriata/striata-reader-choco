@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>striata-reader</id>
+    <version>2.31.2.0</version>
+    <title>striata-reader</title>
+    <authors>Doxim Striata LLC</authors>
+    <projectUrl>https://reader.striata.com</projectUrl>
+	<iconUrl>https://cdn.jsdelivr.net/gh/daniejstriata/striata-reader-choco@main/favicon-128.png</iconUrl>
+	<licenseUrl>https://reader.striata.com/user-agreement.html</licenseUrl>
+	<packageSourceUrl>https://reader.striata.com/downloads/Windows/64bit/striata-reader.exe</packageSourceUrl>
+    <tags>striata-reader .EMC Secure Document viewer</tags>
+    <summary>The Striata Reader enables you to view your secure Document that was emailed to you by your service provider</summary>
+    <description>Striata Reader - Opens secure EMC Documents</description>
+  </metadata>
+  <files>
+    <!-- this section controls what actually gets packaged into the Chocolatey package -->
+    <file src="tools\**" target="tools" />
+    <!--Building from Linux? You may need this instead: <file src="tools/**" target="tools" />-->
+  </files>
+</package>
