@@ -8,7 +8,7 @@
     <projectUrl>https://reader.striata.com</projectUrl>
 	<iconUrl>https://cdn.jsdelivr.net/gh/daniejstriata/striata-reader-choco@main/favicon-128.png</iconUrl>
 	<licenseUrl>https://reader.striata.com/user-agreement.html</licenseUrl>
-	<packageSourceUrl>https://reader.striata.com/downloads/Windows/64bit/striata-reader.exe</packageSourceUrl>
+	<packageSourceUrl>https://github.com/daniejstriata/striata-reader-choco/</packageSourceUrl>
     <tags>striata-reader .EMC Secure Document viewer</tags>
     <summary>The Striata Reader enables you to view your secure Document that was emailed to you by your service provider</summary>
     <description>Striata Reader - Opens secure EMC Documents</description>
