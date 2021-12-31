@@ -5,15 +5,14 @@
     <version>2.31.2.0</version>
     <title>striata-reader</title>
     <authors>Doxim Striata LLC</authors>
-    <projectUrl>https://reader.striata.com</projectUrl>
+	<owners>Danie de Jager</owners>																	   
+    <projectUrl>https://github.com/daniejstriata/striata-reader-choco/</projectUrl>
 	<iconUrl>https://cdn.jsdelivr.net/gh/daniejstriata/striata-reader-choco@main/favicon-128.png</iconUrl>
 	<licenseUrl>https://reader.striata.com/user-agreement.html</licenseUrl>
+	<requireLicenseAcceptance>false</requireLicenseAcceptance>
 	<packageSourceUrl>https://github.com/daniejstriata/striata-reader-choco/</packageSourceUrl>
     <tags>striata-reader .EMC Secure Document viewer</tags>
     <summary>The Striata Reader enables you to view your secure Document that was emailed to you by your service provider</summary>
     <description>Striata Reader - Opens secure EMC Documents</description>
   </metadata>
-  <files>
-    <file src="tools\**" target="tools" />
-  </files>
 </package>
